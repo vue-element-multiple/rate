@@ -1,0 +1,52 @@
+@font-face {font-family: "vm-rate-font";
+  src: url('@{icomoon-font-path}/iconfont.eot'); /* IE9*/
+  src: url('@{icomoon-font-path}/iconfont.eot#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('@{icomoon-font-path}/iconfont.woff') format('woff'), /* chrome, firefox */
+  url('@{icomoon-font-path}/iconfont.ttf') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('@{icomoon-font-path}/iconfont.svg#vm-rate-font') format('svg'); /* iOS 4.1- */
+}
+
+[class*=" vm-rate-icon-"],[class^=vm-rate-icon-] {
+  font-family:"vm-rate-font" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.vm-rate-icon-neutral-empty {
+  &:before {
+	content: @vm-rate-icon-neutral-empty;
+  }
+}
+.vm-rate-icon-neutral-full {
+  &:before {
+	content: @vm-rate-icon-neutral-full;
+  }
+}
+.vm-rate-icon-sad {
+  &:before {
+	content: @vm-rate-icon-sad;
+  }
+}
+.vm-rate-icon-smile {
+  &:before {
+	content: @vm-rate-icon-smile;
+  }
+}
+.vm-rate-icon-star-empty {
+  &:before {
+	content: @vm-rate-icon-star-empty;
+  }
+}
+.vm-rate-icon-star-full {
+  &:before {
+	content: @vm-rate-icon-star-full;
+  }
+}
+.vm-rate-icon-star-half {
+  &:before {
+	content: @vm-rate-icon-star-half;
+  }
+}
+
