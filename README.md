@@ -1,4 +1,7 @@
-# rate
+# rate 
+
+[![Build Status](https://travis-ci.org/michaelliao/openweixin.svg?branch=master)](https://travis-ci.org/michaelliao/openweixin)
+[![NPM downloads](https://img.shields.io/nuget/dt/Microsoft.AspNetCore.Mvc.svg)](https://npmjs.org/package/element-ui)
 
 > [Element](https://github.com/ElemeFE/element) Rate clone, and did just a little change. If you have a better idea of this component improvement, please share it and I will update it immediately.
 
