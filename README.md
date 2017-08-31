@@ -12,8 +12,8 @@ npm install vue-element-multiple-rate -S
 
 ```bash
 import Vue from 'vue'
-import VmRate from 'vue-multiple-rate'
-import 'vue-multiple-rate/lib/rate.css'
+import VmRate from 'vue-element-multiple-rate'
+import 'vue-element-multiple-rate/lib/rate.css'
 
 Vue.component(VmRate.name, VmRate)
 ```
